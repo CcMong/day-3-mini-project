@@ -1,3 +1,47 @@
+/* This line of code removes the bulletpoints, margins and padding from the list */
+ul.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkmagenta;
+}
+
+#site-heading {
+    float: left;
+    color: rgba(255, 255, 255, 0.82);
+
+}
+
+#about,
+#packages,
+#contact-link {
+    float: right;
+    font-weight: bold;
+}
+
+a.nav-bar-link {
+    display: block;
+    padding: 8px;
+    margin: 1px;
+    background-color: magenta;
+    opacity: 0.7;
+    position: relative;
+    top: 15px;
+    right: 10px;
+    text-decoration: none;
+    color: purple;
+}
+
+header {
+    width: 100%;
+    background-color: darkmagenta;
+}
+
+/* nav bar done up to this point*/
+
+/* Rest of the body continues from this point*/
+
 img {
     width: 300px;
     height: 200px;
@@ -7,12 +51,6 @@ body {
     background-color:lavender;
     line-height: 1.5;
 
-}
-
-header {
-    width: 100%;
-    background-color: darkmagenta;
-    display: block;
 }
 
 #contact-form {
@@ -30,6 +68,20 @@ header {
     padding-top: 50px;
 }
 
+footer {
+    width: 100%;
+    background-color: aqua;
+}
+
+/*
+header {
+    width: 100%;
+    background-color: darkmagenta;
+    display: block;
+}
+*/
+
+/*
 #about {
     display: inline;
     text-align: right;
@@ -51,8 +103,4 @@ header {
     float: right;
     padding-left: 10px;
 }
-
-footer {
-    width: 100%;
-    background-color: aqua;
-}
+*/
