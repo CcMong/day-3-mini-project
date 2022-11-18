@@ -11,6 +11,7 @@ ul.nav-bar {
 #site-heading {
     float: left;
     color: rgba(255, 255, 255, 0.82);
+    padding-left: 20px;
 
 }
 
@@ -19,6 +20,10 @@ ul.nav-bar {
 #contact-link {
     float: right;
     font-weight: bold;
+}
+
+#about {
+    padding-right: 30px;
 }
 
 a.nav-bar-link {
@@ -71,6 +76,11 @@ body {
     padding: 20px 10px 0px 10px;
 }
 
+ul.form-fields {
+    list-style-type: none;
+    color: rgb(238, 224, 238);
+}
+
 h4 {
     color:rgb(238, 224, 238);
     text-align: center;
@@ -83,6 +93,12 @@ h4 {
 #main-section {
     padding-top: 70px;
     width: 60%;
+    padding-left: 30px;
+}
+
+#main-section2 {
+    width: 60%;
+    padding-left: 30px;
 }
 
 #tag-line {
@@ -90,10 +106,14 @@ h4 {
     color:purple;
 }
 
+#image-container {
+    padding-left: 30px;
+}
+
 
 footer {
     width: 100%;
-    background-color: aqua;
+    background-color: darkmagenta;
     float: right;
 
     
@@ -102,6 +122,8 @@ footer {
 ul.foot-bar {
     list-style-type: none;
     float: right;
+    color: white;
+    padding-right: 30px;
 }
 
 /*
