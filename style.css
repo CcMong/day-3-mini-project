@@ -1,0 +1,58 @@
+img {
+    width: 300px;
+    height: 200px;
+}
+
+body {
+    background-color:lavender;
+    line-height: 1.5;
+
+}
+
+header {
+    width: 100%;
+    background-color: darkmagenta;
+    display: block;
+}
+
+#contact-form {
+    float: right;
+    width: 40%;
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    display: inline;
+    background-color:blueviolet ;
+    padding: 20px 10px 0px 10px;
+}
+
+#main-section {
+    padding-top: 50px;
+}
+
+#about {
+    display: inline;
+    text-align: right;
+    padding-left: 10px;
+    position: relative;
+    left: 1000px;
+}
+
+#packages {
+    display: inline;
+    text-align: left;
+    padding-left: 10px;
+    position: relative;
+    left: 750px;
+}
+
+#contact-link {
+    display: inline;
+    float: right;
+    padding-left: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: aqua;
+}
